@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5 {
 
 h1{
 	font-size: 150px;
+	margin:  0;
 }
 
 h2{
@@ -52,18 +53,40 @@ h3{
 
 .myteam h3{
 	color: #306fbf;
+	margin: 0 0 70px 0;
+	line-height: 100%;
 }
 
 h4{
 	font-size: 32px;
 	color: #16736e;
 	background-color: #75e3dd;
+	display:  inline-block;
+	margin: 0;
+	padding:  4px;
+}
+
+.works a{
+	letter-spacing: 3px;
+	color: #53c3c4;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+p{
+	line-height: 145%;
 }
 
 .navigation li{
 	display: inline-block;
 	margin:  0 25px;
 	color: #27bcb8;
+}
+
+.navigation li a{
+	color: #27bcb8;
+	text-decoration: none;
 }
 
 .navigation{
@@ -73,6 +96,10 @@ h4{
 .left-col, .right-col {
 	color:  #fff;
 	text-align: center;
+	height:  90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .left-col{
@@ -84,10 +111,47 @@ h4{
 	background-color: #75e3dd;
 }
 
+.top-container{
+	width:  500px;
+	margin:  0 auto;
+}
+
 .scroll {
 	text-align: center;
 	color: #2864b1;
 	font-size: 18px;
+}
+
+.works{
+	color:  #16736e;
+}
+
+.works-img{
+	position: relative;
+	width:  100%;
+}
+
+.works h4{
+	position: absolute;
+	z-index: 1;
+	top:  -25px;
+}
+
+.works h4.right-aligned{
+	right: 0;
+}
+
+.extra-gutters{
+	padding: 0 60px;
+}
+
+.right-aligned {
+	text-align: right;
+}
+
+.img-margin{
+	margin-bottom: 60px;
+	width: 100%;
 }
 
 img{
@@ -95,8 +159,18 @@ img{
 }
 
 footer{
-
 	background-color: #f5979c;
+	min-height: 220px;
+	background-image: url(../img/socialmedia.svg);
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
 }
 
 .social-icon{
