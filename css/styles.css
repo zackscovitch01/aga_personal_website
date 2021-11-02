@@ -26,6 +26,40 @@ h1{
 	font-size: 150px;
 }
 
+h2{
+	font-size: 100px;
+}
+
+.works h2{
+	color: #4dc2bd;
+}
+
+.myteam h2{
+	color: #003170;
+}
+
+.contact h2{
+	color: #f3747b;
+}
+
+h3{
+	font-size: 50px;
+}
+
+.works h3{
+	color: #0e726f;
+}
+
+.myteam h3{
+	color: #306fbf;
+}
+
+h4{
+	font-size: 32px;
+	color: #16736e;
+	background-color: #75e3dd;
+}
+
 .navigation li{
 	display: inline-block;
 	margin:  0 25px;
@@ -36,10 +70,13 @@ h1{
 	text-align: center;
 }
 
+.left-col, .right-col {
+	color:  #fff;
+	text-align: center;
+}
+
 .left-col{
 	background-color: #003170;
-	color:  white;
-	text-align: center;
 }
 	
 
@@ -47,11 +84,11 @@ h1{
 	background-color: #75e3dd;
 }
 
-.right-col p {
-	color: #fff;
-	text_align: center;
+.scroll {
+	text-align: center;
+	color: #2864b1;
+	font-size: 18px;
 }
-
 
 img{
 	max-width: 100%;
