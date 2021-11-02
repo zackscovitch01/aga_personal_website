@@ -1,95 +1,155 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Aga's personal website</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Prata&display=swap" rel="stylesheet">
 </head>
 <body>
 <nav>
-	<ul>
-		<li>
-			the offer
-		</li>
-		<li>
-			portfolio
-		</li>
-		<li>
-			about us
-		</li>
-		<li>
-			contact
-		</li>
+	<ul class="navigation">
+		<li>the offer</li>
+		<li>portfolio</li>
+		<li>about us</li>
+		<li>contact</li>
 	</ul>
 </nav>
-<header>
+<header class=row>
 	<!-- left column -->
-	<section>
+	<section class="col left-col">
 		<h1>hello!</h1>
 		<p>I'm Aga and this is my personal website. I'm a coding designer, so you can check out my work here.
 		</p>
 	</section>
 	<!-- right column -->
-	<section>
+	<section class="col right-col">
 		<img src="img/cactus.jpg" alt="Cactus"/>
 		<p>photo by Nicole Honeywill</p>
 	</section>
 </header>
-<main>
+<main class="container">
 	<p>scroll down to find out more about myself</p>
 	<!-- works -->
 	<section>
 		<!-- first -->
 		<h2>works</h2>
-		<div>
+		<div class="row">
+			<div class="col">
 			<h4>branding & web</h4>
 			<img src="img/pineapp.jpg" alt="Pineapple">
-			<h3>pineapp.</h3>
-			<p>Period: March-April 2016<br>
+			</div>
+
+			<div class="col">
+				<h3>pineapp.</h3>
+			    <p>Period: March-April 2016<br>
 				Team: John (UI), Edwin (UX), <br>
 				Jessica (Front-End)
-			</p>
-			<a href="">VISIT THE WEBSITE</a>
+			    </p>
+			    <a href="">VISIT THE WEBSITE</a>
+			</div>	
 		</div>
 
 		<!-- second -->
-		<div>
-			<h3>healthy dining.</h3>
-			<p>Period: March-April 2016<br>
+		<div class="row">
+			<div class="col">
+				<h3>healthy dining.</h3>
+			    <p>Period: March-April 2016<br>
 				Team: John (UI), Edwin (UX), <br>
 				Jessica (Front-End)
-			</p>
-			<a href="">VISIT THE WEBSITE</a>
-			<h4>branding & mobile</h4>
-			<img src="img/healthydining.jpg" alt="Healthydining">
+			    </p>
+			    <a href="">VISIT THE WEBSITE</a>
+			</div>
+			
+			<div class="col">
+				<h4>branding & mobile</h4>
+			    <img src="img/healthydining.jpg" alt="Healthy Dining">
+			</div>	
 		</div>
 
 		<!-- third -->
-		<div>
-			<h4>branding & web</h4>
-			<img src="img/smartcity.jpg" alt="Smartcity">
-			<h3>smart city.</h3>
-			<p>Period: March-April 2016<br>
+		<div class="row">
+			<div class="col">
+				<h4>branding & web</h4>
+			    <img src="img/smartcity.jpg" alt="Smart City">
+			</div>
+			
+			<div class="col">
+				<h3>smart city.</h3>
+			    <p>Period: March-April 2016<br>
 				Team: John (UI), Edwin (UX), <br>
 				Jessica (Front-End)
-			</p>
-			<a href="">VISIT THE WEBSITE</a>
+			    </p>
+			    <a href="">VISIT THE WEBSITE</a>
+			</div>
 		</div>
 	</section>
-	    <h2>my team</h2>
+	           
 	<!-- my team -->
 	<section>
-		
+		<h2>my team</h2>
+		<div class="row">
+			<div class="col-md-6">
+				<img src="img/team1.jpg", alt="Team picture">
+		    <img src="img/team2.jpg", alt="Team picture">
+			</div>
+
+	        <div class="col">
+	        	<h3>how we started</h3>
+		    <p>
+		    	Whatever crucifix hexagon listicle keytar, blue bottle fap beard vinyl wayfarers tattooed. Viral direct trade meditation etsy venmo fingerstache. Post-ironic shabby chic try-hard, PBR&B man braid you probably haven't heard of them pour-over food truck VHS leggings iceland salvia copper mug.
+		    	<br><br>
+	            Austin pitchfork heirloom quinoa disrupt, twee locavore DIY small batch bicycle rights pop-up gochujang venmo. Deep v blue bottle hell of, kale chips man bun pok pok aesthetic letterpress stumptown. Helvetica 8-bit live-edge, narwhal snackwave meggings hoodie whatever mumblecore seitan next level. Pok pok kale chips freegan pabst cardigan.
+	            <br><br>
+	            Pabst raw denim ramps, lo-fi hammock keffiyeh vape. VHS master cleanse franzen slow-carb letterpress literally, bushwick fingerstache scenester blue bottle. Aesthetic thundercats YOLO, freegan deep v 8-bit scenester affogato. Try-hard stumptown ugh pitchfork enamel pin waistcoat. Asymmetrical etsy church-key, leggings scenester vape meditation offal blog thundercats semiotics chicharrones. Offal iPhone forage sustainable. Cronut irony chillwave poke celiac.
+	            <br><br>
+	            Next level iceland blue bottle fingerstache:
+	            <br><br>
+	            </p>
+	            <ul>
+	            	<li>hella ennui banh mi iPhone kitsch prism VHS marfa fixie</li>
+	            	<li>Typewriter direct trade shoreditch,small batch hexagon</li>
+	            	<li>Poutine jean shorts kale chips normcore.</li>
+	            </ul>
+	        </div>
+	    </div>
 	</section>
 	<!--contact -->
-	    <h2>contact</h2>
 	<section>
-		
+		<h2>contact</h2>
+		<div class="row">
+			<div class="col">
+				<p>Email: youremail@youremail.com</p>
+		        <p>Our office is located in the heart of Warsaw
+		        Feel free to say hello!</p>
+
+		        <p>Warsaw St. 23/21<br>
+                03-323 Warsaw,<br>
+                POLAND</p>
+			</div>
+		    <div class="col">
+			    <img src="img/contact1.jpg" alt="">
+			</div>
+			<div class="col">
+		        <img src="img/contact2.jpg" alt="">
+		    </div>
+	    </div>
 	</section>
 </main>
 <footer>
-	
+	<div class="container">
+		<div class="social-icons-container">
+			<a href=""><img src="img/twitter.svg" alt="Twitter icon" class="social-icon"></a>
+	        <a href=""><img src="img/facebook.svg" alt="Facebook icon" class="social-icon"></a>
+	        <a href=""><img src="img/pinterest.svg" alt="Pinterest icon" class="social-icon"></a>
+	        <a href=""><img src="img/instagram.svg" alt="Instagram icon" class="social-icon"></a>
+	        <p>designed by Moubarack Bagoudou</p>
+		</div>
+	</div>
 </footer>
 </body>
 </html>

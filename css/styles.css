@@ -1,0 +1,72 @@
+
+html{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	font-family: 'Inconsolata', monospace;
+}
+
+nav{
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	font-family: 'Prata', serif;
+	font-size: 22px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Prata', serif;
+	font-weight: normal;
+}
+
+h1{
+	font-size: 150px;
+}
+
+.navigation li{
+	display: inline-block;
+	margin:  0 25px;
+	color: #27bcb8;
+}
+
+.navigation{
+	text-align: center;
+}
+
+.left-col{
+	background-color: #003170;
+	color:  white;
+	text-align: center;
+}
+	
+
+.right-col{
+	background-color: #75e3dd;
+}
+
+.right-col p {
+	color: #fff;
+	text_align: center;
+}
+
+
+img{
+	max-width: 100%;
+}
+
+footer{
+
+	background-color: #f5979c;
+}
+
+.social-icon{
+	height: 60px;
+	margin: 10px 20px;
+}
+
+.social-icons-container{
+	text-align: center;
+}
